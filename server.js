@@ -30,9 +30,6 @@ app.use((req, res, next) => {
 	next();
 });
 
-app.use((req,res, next) => {
-	res.render('maintainence.hbs');
-});
 
 //middleware //app.use
 app.use(express.static(__dirname + '/public'));
